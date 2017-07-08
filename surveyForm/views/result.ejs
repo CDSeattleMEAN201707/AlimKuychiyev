@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Results</title>
+  </head>
+  <body>
+      <h1>Submited Information</h1>
+
+      <p>Name: <%= postInfo.name %></p>
+      <p>Dojo Location <%= postInfo.location %></p>
+      <p>Favorite Language <%= postInfo.language %></p>
+      <p>Comment <%= postInfo.comment %></p>
+
+      <form  action="/logout" method="get">
+        <input type="submit"  value="Logout">
+      </form>
+  </body>
+</html>
